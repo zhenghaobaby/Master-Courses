@@ -1,0 +1,12 @@
+S0 = 10;
+K = 8; %Choose other values for K.
+r = 0.05;
+sigma = 0.3;
+T = 1;
+Z = randn(10^7,1);
+C1 = max(S0*exp((r-0.5*sigma^2)*T +sigma*sqrt(T)*Z)-K,0);
+C2 = max(S0*exp((r-0.5*sigma^2)*T -sigma*sqrt(T)*Z)-K,0);
+C = (C1+C2)/2;
+Variance_classical = var(C1)
+Variance_anti = var(C)
+reduction_rate = 1- Variance_anti / Variance_classical

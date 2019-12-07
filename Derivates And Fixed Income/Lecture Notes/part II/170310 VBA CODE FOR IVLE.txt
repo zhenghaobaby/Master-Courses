@@ -1,0 +1,492 @@
+Option Explicit
+Option Compare Text
+Option Base 0
+Const cPrice = 0, cDelta = 1, cGamma = 2, cTheta = 3, cVega = 4, cVolga = 5, cVanna = 6
+
+
+'WORKSHEET FUNCTIONS
+Public Function PI()
+    PI = Application.WorksheetFunction.PI()
+End Function
+Public Function MAX(a, b)
+    MAX = Application.WorksheetFunction.MAX(a, b)
+End Function
+Public Function MIN(a, b)
+    MIN = Application.WorksheetFunction.MIN(a, b)
+End Function
+Public Function ARCSIN(x As Double) As Double
+    ARCSIN = Application.WorksheetFunction.Asin(x)
+End Function
+' The normal distribution function
+Public Function NORMDIST(x)
+    NORMDIST = Application.WorksheetFunction.NORMDIST(x, 0, 1, False)
+' = 1 / sqr(2 * PI()) * Exp(-0.5 * x ^ 2)
+End Function
+' Cumulative normal distribution function
+Public Function CNORMDIST(x)
+    CNORMDIST = Application.WorksheetFunction.NORMDIST(x, 0, 1, True)
+End Function
+' The inverse standard cumulative normal distribution function
+Public Function NORMINV(x)
+    NORMINV = Application.WorksheetFunction.NORMINV(x, 0, 1)
+End Function
+
+'
+'OPTION PRICE AND GREEKS
+'
+
+'Standard BS formula for plain vanilla - price and greeks
+'T is in years
+Function xEuropeanOption(ByVal Spot As Double, ByVal T As Double, ByVal Strike As Double, ByVal vol As Double, ByVal dfNUM As Double, ByVal dfDEN As Double, ByVal PC As String, Optional ByVal premincl As Integer = 0, Optional result As String)
+Dim pcflag As Long, d1, d2, Nd1, Nd2, forward, r, q, price, delta, gamma, vega, theta, vanna, volga, dualdelta, moneyness, probexercise
+    forward = Spot * dfDEN / dfNUM
+    If Left(UCase(PC), 1) = "C" Then
+        pcflag = 1
+        If T <= 0 Then
+            xEuropeanOption = Array(MAX(0, Spot - Strike), 1, 0, 0, 0, 0, 0) 'price, delta, gamma, theta, vega, volga, vanna
+            Exit Function
+        End If
+    ElseIf Left(UCase(PC), 1) = "P" Then
+        pcflag = -1
+        If T <= 0 Then
+            xEuropeanOption = Array(MAX(0, Strike - Spot), -1, 0, 0, 0, 0, 0) 'price, delta, gamma, theta, vega, volga, vanna
+            Exit Function
+        End If
+    Else
+        xEuropeanOption = Array(0, 0, 0, 0, 0, 0, 0) 'price, delta, gamma, theta, vega, volga, vanna
+        Exit Function
+    End If
+    r = -Log(dfNUM) / T
+    q = -Log(dfDEN) / T
+    d1 = (Log(forward / Strike) + 0.5 * (vol ^ 2) * T) / (vol * Sqr(T))
+    d2 = d1 - vol * Sqr(T)
+    Nd1 = CNORMDIST(pcflag * d1)
+    Nd2 = CNORMDIST(pcflag * d2)
+    moneyness = pcflag * (d1 + d2) / 2 'how many standard deviations is the strike away from the forward
+    probexercise = Nd2    'probability of exercise in a risk neutral world
+    'PRICE
+    price = dfNUM * pcflag * (forward * Nd1 - Strike * Nd2)
+    'SPOT (dS) GREEKS
+    delta = pcflag * Nd1 * dfDEN
+    dualdelta = -pcflag * Nd2 * dfNUM
+    gamma = (dfDEN * NORMDIST(d1) / vol) / (Spot * Sqr(T))
+    'TIME (dT) GREEKS
+    theta = (-0.5 * vol ^ 2 * Spot ^ 2 * gamma + r * price - (r - q) * Spot * delta)
+    'VOL (dV) GREEKS
+    vega = (dfDEN * NORMDIST(d1)) * (Spot * Sqr(T))
+    vanna = (dfDEN * NORMDIST(d1) / vol) * -d2
+    volga = (-vanna) * d1 * Spot * Sqr(T)
+    'Return results
+    delta = delta - price / Spot * premincl
+    If result = "" Then
+        xEuropeanOption = Array(price, delta, gamma, theta, vega, volga, vanna, dualdelta, moneyness, probexercise)
+    Else
+        Select Case result
+        Case "price"
+            xEuropeanOption = price
+        Case "delta"
+            xEuropeanOption = delta
+        Case "gamma"
+            xEuropeanOption = gamma
+        Case "theta"
+            xEuropeanOption = theta
+        Case "vega"
+            xEuropeanOption = vega
+        Case "volga"
+            xEuropeanOption = volga
+        Case "vanna"
+            xEuropeanOption = vanna
+        Case "dualdelta"
+            xEuropeanOption = dualdelta
+        Case "moneyness"
+            xEuropeanOption = moneyness
+        Case "probexercise"
+            xEuropeanOption = probexercise
+        Case Else
+            xEuropeanOption = "#N/A"
+        End Select
+    End If
+End Function
+
+
+
+'
+'SMILE FUNCTIONS
+'
+'find the delta neutral straddle strike
+Function xFindDNstrike(ByVal Spot As Double, ByVal T As Double, ByVal atmvol As Double, ByVal dfNUM As Double, ByVal dfDEN As Double, ByVal premincl As Integer)
+    xFindDNstrike = Spot * dfDEN / dfNUM * Exp((0.5 - premincl) * (atmvol ^ 2) * T)
+End Function
+
+
+'find the strike for a given vol and delta
+Function xStrikeforVolandDelta(ByVal Spot As Double, ByVal T As Double, ByVal delta As Double, ByVal vol As Double, ByVal dfNUM As Double, ByVal dfDEN As Double, ByVal PC As String, ByVal premincl As Integer)
+Dim pcflag As Integer, K1 As Double, K2 As Double, j As Integer, optarray As Variant, steps As Integer, shift As Double, price1, delta1, price2, delta2, grad
+    steps = 100
+    shift = 0.000001
+    Select Case Left(UCase(PC), 1)
+        Case "C"
+            pcflag = 1
+        Case "P"
+            pcflag = -1
+    End Select
+    K1 = Spot * dfDEN / dfNUM * Exp(-pcflag * vol * Sqr(T) * (NORMINV(delta / dfDEN) - pcflag * 0.5 * vol * Sqr(T)))
+    For j = 1 To steps
+        optarray = xEuropeanOption(Spot, T, K1, vol, dfNUM, dfDEN, PC)
+        price1 = optarray(cPrice)
+        delta1 = optarray(cDelta)
+        K2 = K1 * (1 + shift)
+        optarray = xEuropeanOption(Spot, T, K2, vol, dfNUM, dfDEN, PC)
+        price2 = optarray(cPrice)
+        delta2 = optarray(cDelta)
+        grad = ((delta2 - premincl * price2 / Spot) - (delta1 - premincl * price1 / Spot)) / (K1 * shift)
+        K1 = K1 - ((delta2 - pcflag * delta) - premincl * price2 / Spot) / grad
+    Next j
+    xStrikeforVolandDelta = K1
+End Function
+
+
+'find the strike for a given delta and smile (from the smile approx not vv!)
+Function xStrikeforDeltaandSmile(ByVal Spot As Double, ByVal T As Double, ByVal delta As Double, ByVal K25p As Double, ByVal vol25p As Double, ByVal Katm As Double, ByVal volatm As Double, ByVal K25c As Double, ByVal vol25c As Double, ByVal dfNUM As Double, ByVal dfDEN As Double, ByVal PC As String, ByVal premincl As Integer)
+      Dim pcflag As Long, k As Double, K1 As Double, K2 As Double, volK As Double, iMAX, deltaK, i As Integer, deltaerr, optarray As Variant
+10        iMAX = 70
+20        Select Case Left(UCase(PC), 1)
+              Case "C"
+30                pcflag = 1
+40            Case "P"
+50                pcflag = -1
+60        End Select
+70        K1 = Katm * (1 + pcflag * 4 * volatm * Sqr(T))
+80        K2 = Katm
+90        Do Until i > iMAX Or Abs(deltaerr) < 0.00001
+100           k = (K2 + K1) / 2
+110           volK = xVolforStrikeandSmile(Spot, T, k, K25p, vol25p, Katm, volatm, K25c, vol25c, dfNUM, dfDEN)
+120           optarray = xEuropeanOption(Spot, T, k, volK, dfNUM, dfDEN, PC)
+130           deltaK = optarray(cDelta) - optarray(cPrice) / Spot * premincl
+140           deltaerr = pcflag * deltaK - delta
+150           If deltaerr > 0 Then
+160               K2 = k
+170           Else
+180               K1 = k
+190           End If
+200           i = i + 1
+210       Loop
+220       xStrikeforDeltaandSmile = k
+End Function
+
+
+
+'find the vol for a given delta and smile (from the smile approx not vv!)
+Function xVolforDeltaandSmile(Spot As Double, T As Double, delta As Double, volatm As Double, vol25c As Double, vol25p As Double, dfNUM As Double, dfDEN As Double, premincl As Integer, PC As String)
+      Dim forward As Double, KA As Double, K25c As Double, K25p As Double, Kdc As Double, Kdp As Double, voldp As Double, voldc As Double, k As Double, K1 As Double, vol25b As Double
+10        forward = Spot * dfDEN / dfNUM
+20        If T < 2 Then
+30            KA = forward * Exp((0.5 - premincl) * volatm ^ 2 * T)
+40        Else
+50            KA = forward
+60        End If
+70        voldc = vol25c
+80        voldp = vol25p
+90        K25c = xStrikeforVolandDelta(Spot, T, 0.25, vol25c, dfNUM, dfDEN, "call", premincl)
+100       K25p = xStrikeforVolandDelta(Spot, T, 0.25, vol25p, dfNUM, dfDEN, "put", premincl)
+110       k = xStrikeforDeltaandSmile(Spot, T, delta, K25p, vol25p, KA, volatm, K25c, vol25c, dfNUM, dfDEN, PC, premincl)
+120       If PC = "call" Then
+130           voldc = xVolforStrikeandSmile(Spot, T, k, K25p, vol25p, KA, volatm, K25c, vol25c, dfNUM, dfDEN)
+140       Else
+150           voldp = xVolforStrikeandSmile(Spot, T, k, K25p, vol25p, KA, volatm, K25c, vol25c, dfNUM, dfDEN)
+160       End If
+170       If voldc Or voldp = 0 Then
+180           voldp = xVolforPriceandStrike(Spot, T, k, 0.00001 * Spot, dfNUM, dfDEN, PC)
+190           voldc = xVolforPriceandStrike(Spot, T, k, 0.00001 * Spot, dfNUM, dfDEN, PC)
+200       End If
+210       If PC = "put" Then
+220           xVolforDeltaandSmile = voldp
+230       Else
+240           xVolforDeltaandSmile = voldc
+250       End If
+End Function
+
+
+
+'find the implied vol for a given option price and strike
+'T in years, price in same units as Spot
+Function xVolforPriceandStrike(ByVal Spot As Double, ByVal T As Double, ByVal Strike As Double, ByVal price As Double, ByVal dfNUM As Double, ByVal dfDEN As Double, ByVal PC As String, Optional ByVal FirstGuessVol As Double = 0)
+      Dim vol As Double, nrprice As Double, nrvega As Double, nrvegaMIN As Double, optarray As Variant, iMAX As Double, i As Double, pxerrMIN As Double, pxerr As Double
+10        If price <= 0 Then
+20            xVolforPriceandStrike = 0
+30            Exit Function
+40        End If
+          'convergence parameters
+50        i = 1
+60        iMAX = 100000
+70        pxerr = 1
+80        pxerrMIN = 0.000000000001
+90        nrvegaMIN = 0.00000001
+100       If FirstGuessVol = 0 Then
+110           vol = 0.4
+120       Else
+130           vol = FirstGuessVol
+140       End If
+          'standard Newton-Raphson procedure
+150       While Abs(pxerr) > pxerrMIN
+160           If (i > iMAX) Or vol < 0 Then
+170               xVolforPriceandStrike = 0
+180               Exit Function
+190           End If
+200           optarray = xEuropeanOption(Spot, T, Strike, vol, dfNUM, dfDEN, PC, 0)
+210           nrprice = optarray(cPrice)
+220           nrvega = MAX(optarray(cVega), nrvegaMIN)
+230           pxerr = (nrprice - price)
+240           If nrvega = 0 Then
+250               xVolforPriceandStrike = 0
+260               Exit Function
+270           End If
+280           vol = vol - pxerr / nrvega
+290           i = i + 1
+300       Wend
+310       xVolforPriceandStrike = vol
+End Function
+
+
+'Smile approximation
+Function xVolforStrikeandSmile(ByVal Spot As Double, ByVal T As Double, ByVal Strike As Double, ByVal K1 As Double, ByVal v1 As Double, ByVal K2 As Double, ByVal v2 As Double, ByVal K3 As Double, ByVal v3 As Double, ByVal dfNUM As Double, ByVal dfDEN As Double)
+      Dim forward As Double, k As Double, vol As Double, x1 As Double, x2 As Double, x3 As Double, d1 As Double, d2 As Double, d11 As Double, d21 As Double, d12 As Double, d22 As Double, d13 As Double, d23 As Double, dk1 As Double, dk2 As Double
+10    forward = Spot * dfDEN / dfNUM
+20    k = Strike
+30    x1 = (Log(K2 / k) * Log(K3 / k)) / (Log(K2 / K1) * Log(K3 / K1))
+40    x2 = (Log(k / K1) * Log(K3 / k)) / (Log(K2 / K1) * Log(K3 / K2))
+50    x3 = (Log(k / K1) * Log(k / K2)) / (Log(K3 / K1) * Log(K3 / K2))
+60    d1 = (Log(forward / k) + 0.5 * v2 ^ 2 * T) / (v2 * Sqr(T))
+70    d2 = d1 - v2 * Sqr(T)
+80    d11 = (Log(forward / K1) + 0.5 * v2 ^ 2 * T) / (v2 * Sqr(T))
+90    d21 = d11 - v2 * Sqr(T)
+100   d12 = (Log(forward / K2) + 0.5 * v2 ^ 2 * T) / (v2 * Sqr(T))
+110   d22 = d12 - v2 * Sqr(T)
+120   d13 = (Log(forward / K3) + 0.5 * v2 ^ 2 * T) / (v2 * Sqr(T))
+130   d23 = d13 - v2 * Sqr(T)
+140   dk1 = x1 * v1 + x2 * v2 + x3 * v3 - v2
+150   dk2 = x1 * d11 * d21 * (v1 - v2) ^ 2 + x3 * d13 * d23 * (v3 - v2) ^ 2
+160   If (v2 ^ 2 + d1 * d2 * (2 * v2 * dk1 + dk2)) < 0 Then
+170       If k > K2 Then
+180           vol = xVolforPriceandStrike(Spot, T, k, 0.00001 * Spot, dfNUM, dfDEN, "call")
+190       Else
+200           vol = xVolforPriceandStrike(Spot, T, k, 0.00001 * Spot, dfNUM, dfDEN, "put")
+210       End If
+220       xVolforStrikeandSmile = vol
+230       Exit Function
+240   End If
+250   vol = v2 + (-v2 + Sqr(v2 ^ 2 + d1 * d2 * (2 * v2 * dk1 + dk2))) / (d1 * d2)
+260   xVolforStrikeandSmile = vol
+End Function
+
+
+
+'Quadratic Smile approximation (similar to polynomial result)
+Function xVolforStrikeandSmile2(ByVal Strike As Double, ByVal K_lo As Double, ByVal Vol_Klo As Double, ByVal K_atm As Double, ByVal Vol_Katm As Double, ByVal K_hi As Double, ByVal Vol_Khi As Double, ByVal T, ByVal spotrate, ByVal dfDEN, ByVal dfNUM) As Double
+      Dim F, K0, K1, K2, K3, V0, v1, v2, v3, LK0, LK1, LK2, LK3, SIGT2, d1K0, d2K0, d1K1, d2K1, d1K2, d2K2, d1K3, d2K3, R102, R103, R203, R201, R301, R302, w1, w2, w3, coeff1, coeff2, a, b, C
+
+10        F = spotrate * dfDEN / dfNUM
+20        K0 = Strike
+30        K1 = K_lo
+40        K2 = K_atm
+50        K3 = K_hi
+60        V0 = 0
+70        v1 = Vol_Klo
+80        v2 = Vol_Katm
+90        v3 = Vol_Khi
+
+100       LK0 = Log(F / K0)
+110       LK1 = Log(F / K1)
+120       LK2 = Log(F / K2)
+130       LK3 = Log(F / K3)
+
+          'd1, d2 and moneyness for the four options
+140       SIGT2 = v2 * Sqr(T)
+150       d1K0 = (LK0 / SIGT2 + 0.5 * SIGT2 ^ 2)
+160       d2K0 = d1K0 - SIGT2 ^ 2
+170       d1K1 = (LK1 / SIGT2 + 0.5 * SIGT2 ^ 2)
+180       d2K1 = d1K1 - SIGT2 ^ 2
+190       d1K2 = (LK2 / SIGT2 + 0.5 * SIGT2 ^ 2)
+200       d2K2 = d1K2 - SIGT2 ^ 2
+210       d1K3 = (LK3 / SIGT2 + 0.5 * SIGT2 ^ 2)
+220       d2K3 = d1K3 - SIGT2 ^ 2
+
+          'weights
+230       R102 = (LK1 - LK0) / (LK1 - LK2)
+240       R103 = (LK1 - LK0) / (LK1 - LK3)
+250       R203 = (LK2 - LK0) / (LK2 - LK3)
+260       R201 = (LK2 - LK0) / (LK2 - LK1)
+270       R301 = (LK3 - LK0) / (LK3 - LK1)
+280       R302 = (LK3 - LK0) / (LK3 - LK2)
+290       w1 = R201 * R301
+300       w2 = R102 * R302
+310       w3 = R103 * R203
+
+          'coefficients
+320       coeff1 = (w1 * v1 + w2 * v2 + w3 * v3) - v2
+330       coeff2 = w1 * d1K1 * d2K1 * (v1 - v2) ^ 2 + w2 * d1K2 * d2K2 * (v2 - v2) ^ 2 + w3 * d1K3 * d2K3 * (v3 - v2) ^ 2
+
+340       a = d1K0 * d2K0 / 2
+350       b = v2
+360       C = -(v2 * coeff1 + 0.5 * coeff2)
+
+370       If b ^ 2 > 4 * a * C Then V0 = (-b + Sqr(b ^ 2 - 4 * a * C)) / (2 * a)
+380       xVolforStrikeandSmile2 = V0 + v2
+End Function
+
+
+'GENERAL INTERPOLATION
+
+Public Function xPolynomialCoefficients(xydata As Range) As Variant
+      Dim myxydata As Variant, myinputmatrix() As Double, mymatrix As Variant, mycoefficients() As Double, myoutputmatrix() As Double, n As Integer, i As Integer, j As Integer
+10        myxydata = xRangeToArray(xydata)
+20        If UBound(myxydata, 1) < UBound(myxydata, 2) Then    'force to be vertical array
+30            myxydata = xTransposeArray(myxydata)
+40        End If
+50        n = UBound(myxydata, 1) - LBound(myxydata, 1) + 1
+60        If n > 52 Then
+70            xPolynomialCoefficients = "Too many (>52) data points!"
+80            Exit Function
+90        End If
+100       ReDim myinputmatrix(1 To n, 1 To n)    'square array
+110       ReDim myoutputmatrix(1 To n, 1 To 1)    'vertical array
+120       For i = LBound(myinputmatrix, 1) To UBound(myinputmatrix, 1)
+130           For j = LBound(myinputmatrix, 2) To UBound(myinputmatrix, 2)
+140               myinputmatrix(i, j) = myxydata(LBound(myxydata, 1) + i - LBound(myinputmatrix, 1), LBound(myxydata, 2)) ^ (j - LBound(myinputmatrix, 2))
+150               myoutputmatrix(i, 1) = myxydata(LBound(myxydata, 1) + i - LBound(myinputmatrix, 1), LBound(myxydata, 2) + 1)
+160           Next j
+170       Next i
+180       mymatrix = MINVERSE(myinputmatrix)
+190       For i = LBound(myinputmatrix, 1) To UBound(myinputmatrix, 1)
+200           For j = LBound(myinputmatrix, 2) To UBound(myinputmatrix, 2)
+210               myinputmatrix(i, j) = mymatrix(LBound(mymatrix, 1) + i - LBound(myinputmatrix, 1), LBound(mymatrix, 2) + j - LBound(myinputmatrix, 2))
+220           Next j
+230       Next i
+240       mymatrix = MMULT(myinputmatrix, myoutputmatrix)
+          '         ReDim mycoefficients(1 To 1, 1 To n)    'horizontal array
+          '         For i = LBound(mycoefficients, 2) To UBound(mycoefficients, 2)
+          '             mycoefficients(LBound(mycoefficients, 1), i) = mymatrix(LBound(mymatrix, 1) + i - LBound(mycoefficients, 1), LBound(mymatrix, 2))
+          '         Next i
+250       xPolynomialCoefficients = mymatrix
+End Function
+
+Public Function xPolynomialPlot(ByVal xdata As Range, ByVal coefficients As Range) As Variant
+      Dim myXdata As Variant, mycoefficients As Variant, myYdata() As Double, m As Integer, n As Integer, i As Integer, j As Integer
+10        myXdata = xRangeToArray(xdata)
+20        If UBound(myXdata, 1) < UBound(myXdata, 2) Then    'force to be vertical array
+30            myXdata = xTransposeArray(myXdata)
+40        End If
+50        m = UBound(myXdata, 1) - LBound(myXdata, 1) + 1
+60        mycoefficients = xRangeToArray(coefficients)
+70        If UBound(mycoefficients, 1) < UBound(mycoefficients, 2) Then    'force to be vertical array
+80            mycoefficients = xTransposeArray(mycoefficients)
+90        End If
+100       n = UBound(mycoefficients, 1) - LBound(mycoefficients, 1) + 1
+110       ReDim myYdata(1 To m, 1 To 1)
+120       For i = 1 To m
+130           myYdata(i, 1) = 0
+140           For j = 1 To n
+150               myYdata(i, 1) = myYdata(i, 1) + mycoefficients(LBound(mycoefficients, 1) + j - 1, LBound(mycoefficients, 2)) * (myXdata(LBound(myXdata, 1) + i - 1, LBound(myXdata, 2)) ^ (j - 1))
+160           Next j
+170       Next i
+180       xPolynomialPlot = myYdata
+End Function
+
+'function to transpose a two-dimensional array variable or range (returns a base 0 array)
+Function xTransposeArray(ByVal twodimensionalarray As Variant) As Variant
+      Dim i As Integer, j As Integer, InputArray As Variant, outputarray() As Variant
+10        On Error GoTo ErrorHandler
+20        InputArray = xReturnArray(twodimensionalarray)
+30        ReDim outputarray(0 To UBound(InputArray, 2) - LBound(InputArray, 2), 0 To UBound(InputArray, 1) - LBound(InputArray, 1))
+40        For i = LBound(InputArray, 1) To UBound(InputArray, 1)
+50            For j = LBound(InputArray, 2) To UBound(InputArray, 2)
+60                outputarray(j - LBound(InputArray, 2), i - LBound(InputArray, 1)) = InputArray(i, j)
+70            Next j
+80        Next i
+90        xTransposeArray = outputarray
+100       Exit Function
+ErrorHandler:
+110       xTransposeArray = "#VALUE!"
+End Function
+
+
+'function to sum all the elements of an array variable or range - up to 3 dimensions
+Function xSumArray(ByVal ndimensionalarray As Variant) As Double
+      Dim i As Integer, j As Integer, k As Integer, vaArray As Variant, runningtotal As Double, NumDimensions As Integer
+10        On Error GoTo ErrorHandler
+20        vaArray = xReturnArray(ndimensionalarray)
+30        NumDimensions = xNumberOfArrayDimensions(vaArray)
+40        runningtotal = 0
+50        If NumDimensions > 0 Then
+60            For i = LBound(vaArray, 1) To UBound(vaArray, 1)
+70                If NumDimensions > 1 Then
+80                    For j = LBound(vaArray, 2) To UBound(vaArray, 2)
+90                        If NumDimensions > 2 Then
+100                           For k = LBound(vaArray, 3) To UBound(vaArray, 3)
+110                               If NumDimensions > 3 Then
+120                                   GoTo ErrorHandler
+130                               Else    'n=3
+140                                   runningtotal = runningtotal + vaArray(i, j, k)
+150                               End If
+160                           Next k
+170                       Else    'n=2
+180                           runningtotal = runningtotal + vaArray(i, j)
+190                       End If
+200                   Next j
+210               Else    'n=1
+220                   runningtotal = runningtotal + vaArray(i)
+230               End If
+240           Next i
+250       Else    'n=0
+260           GoTo ErrorHandler
+270       End If
+280       xSumArray = runningtotal
+290       Exit Function
+ErrorHandler:
+300       xSumArray = "#VALUE!"
+End Function
+
+
+'function to ensure an array is returned
+Function xReturnArray(ByVal inputvariant As Variant) As Variant
+      Dim myarray As Variant
+10        myarray = inputvariant
+20        If Not IsArray(myarray) Then    'it's 1x1
+30            ReDim myarray(1 To 1, 1 To 1)
+40            myarray(1, 1) = inputvariant
+50        End If
+60        xReturnArray = myarray
+End Function
+
+Public Function xNumberOfArrayDimensions(Arr As Variant) As Integer
+      'Created By Chip Pearson and Pearson Software Consulting, LLC
+      ' This function returns the number of dimensions of an array. An unallocated dynamic array has 0 dimensions. This condition can also be tested with IsArrayEmpty.
+      Dim Ndx As Integer, Res As Integer
+10        On Error Resume Next
+          ' Loop, increasing the dimension index Ndx, until an error occurs. An error will occur when Ndx exceeds the number of dimension in the array. Return Ndx - 1.
+20        Do
+30            Ndx = Ndx + 1
+40            Res = UBound(Arr, Ndx)
+50        Loop Until Err.Number <> 0
+60        xNumberOfArrayDimensions = Ndx - 1
+End Function
+
+'function to convert a RANGE into a STRING ARRAY
+Public Function xRangeToArray(theRange As Excel.Range) As String()
+    Dim variantValues As Variant, stringValues() As String, columnCounter As Long, rowCounter As Long
+10  variantValues = theRange.Value
+20  On Error GoTo 1000    'typically if theRange is just a single cell
+30  ReDim stringValues(LBound(variantValues, 1) To UBound(variantValues, 1), LBound(variantValues, 2) To UBound(variantValues, 2))
+40  For rowCounter = UBound(variantValues, 1) To LBound(variantValues, 1) Step -1
+50      For columnCounter = UBound(variantValues, 2) To LBound(variantValues, 2) Step -1
+60          stringValues(rowCounter, columnCounter) = CStr(variantValues(rowCounter, columnCounter))
+70      Next columnCounter
+80  Next rowCounter
+90  xRangeToArray = stringValues
+100 Exit Function
+1000  ReDim stringValues(1 To 1, 1 To 1)
+1010 stringValues(1, 1) = CStr(theRange.Value)
+1020  xRangeToArray = stringValues
+End Function
+
+

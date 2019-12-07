@@ -1,0 +1,10 @@
+*.out
+*.o
+*.obj
+*.exe
+*.bak
+portfolio.tmp
+*.txt
+*.exe
+*.stackdump
+

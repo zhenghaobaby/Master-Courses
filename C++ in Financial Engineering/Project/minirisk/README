@@ -1,0 +1,20 @@
+This source code constitutes the foundation of a risk management system and is 
+provided to the Students of the course "C++ in Financial Engineering" at 
+National University of Singapore (FE5226) as a base-line to practice the 
+introduction of various enhancements.
+
+It can load trades from a database, construct market objects as needed, compute 
+the price of trades and their sensitivities with respect to risk factors.
+
+A real risk management system entails of many more features, e.g.: sophisticate 
+market objects and pricing models; efficient algorithms to avoid unnecessary 
+recomputations when computing Greeks; support for a large number of trade types; 
+extensive set of tools to orchestrate recomputations and post-process their 
+results (e.g. P\&L explain, VaR, PFE, XVA); tools to manage life-cycle of 
+trades; connections to external databases and systems of various nature; 
+client-server pricing APIs; connections to cash flow management systems and 
+payment systems; support for parallel computations (thread safety).
+
+All these features can be implemented as modifications or extensions of the code 
+provided. The document in the doc directory specifies a list of tasks for 
+improving and extending the system, which Students are supposed to carry out.

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="src"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DemoRisk">
+				<Option output="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug/DemoRisk.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 DemoRisk"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DemoRisk/fast">
+				<Option output="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug/DemoRisk.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 DemoRisk/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestDate">
+				<Option output="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug/TestDate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestDate"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestDate/fast">
+				<Option output="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug/TestDate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestDate/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DemoHex">
+				<Option output="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug/DemoHex.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 DemoHex"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DemoHex/fast">
+				<Option output="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug/DemoHex.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 DemoHex/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Course/C++\ in\ Financial\ Engineering/minirisk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveDiscount.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveDiscount.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveFXForward.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveFXForward.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveFXSpot.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveFXSpot.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Date.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Date.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/DemoHex.cpp">
+			<Option target="DemoHex"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/DemoRisk.cpp">
+			<Option target="DemoRisk"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/FixingDataSever.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/FixingDataSever.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Global.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Global.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/ICurve.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/IObject.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/IPricer.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/ITrade.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Macros.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Market.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Market.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/MarketDataServer.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/MarketDataServer.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PortfolioUtils.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PortfolioUtils.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PricePaymentForward.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PricePaymentForward.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PricerPayment.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PricerPayment.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Streamer.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TestDate.cpp">
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Trade.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradeFXForward.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradeFXForward.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradeGuids.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradePayment.cpp">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradePayment.h">
+			<Option target="DemoRisk"/>
+			<Option target="TestDate"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

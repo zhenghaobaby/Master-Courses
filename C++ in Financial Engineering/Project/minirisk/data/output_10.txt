@@ -1,0 +1,359 @@
+Id                  0
+Name                Payment
+Quantity            10
+Currency            USD
+Delivery Date       1-2-2020
+
+Id                  0
+Name                Payment
+Quantity            20
+Currency            EUR
+Delivery Date       2-2-2020
+
+Id                  0
+Name                Payment
+Quantity            20
+Currency            EUR
+Delivery Date       5-11-2074
+
+Id                  0
+Name                Payment
+Quantity            20
+Currency            EUR
+Delivery Date       8-7-2009
+
+========================
+PV:
+========================
+Total:  25.9102
+Errors: 2
+
+========================
+    0: 7.54026
+    1: 18.3699
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+Risk factors:
+FX.SPOT.EUR
+IR.10Y.EUR
+IR.10Y.USD
+IR.1M.EUR
+IR.1M.USD
+IR.1W.EUR
+IR.1W.USD
+IR.1Y.EUR
+IR.1Y.USD
+IR.2M.EUR
+IR.2M.USD
+IR.2W.EUR
+IR.2W.USD
+IR.2Y.EUR
+IR.2Y.USD
+IR.3M.EUR
+IR.3M.USD
+IR.5Y.EUR
+IR.5Y.USD
+IR.6M.EUR
+IR.6M.USD
+
+========================
+PV01 bucketed IR.10Y.EUR:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.10Y.USD:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.1M.EUR:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.1M.USD:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.1W.EUR:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.1W.USD:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.1Y.EUR:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.1Y.USD:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.2M.EUR:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.2M.USD:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.2W.EUR:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.2W.USD:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.2Y.EUR:
+========================
+Total:  -30.6668
+Errors: 2
+
+========================
+    0: 0
+    1: -30.6668
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.2Y.USD:
+========================
+Total:  -12.6015
+Errors: 2
+
+========================
+    0: -12.6015
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.3M.EUR:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.3M.USD:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.5Y.EUR:
+========================
+Total:  -15.1824
+Errors: 2
+
+========================
+    0: 0
+    1: -15.1824
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.5Y.USD:
+========================
+Total:  -6.19747
+Errors: 2
+
+========================
+    0: -6.19747
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.6M.EUR:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 bucketed IR.6M.USD:
+========================
+Total:  0
+Errors: 2
+
+========================
+    0: 0
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 parallel IR.EUR:
+========================
+Total:  -45.8493
+Errors: 2
+
+========================
+    0: 0
+    1: -45.8493
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+PV01 parallel IR.USD:
+========================
+Total:  -18.799
+Errors: 2
+
+========================
+    0: -18.799
+    1: 0
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+
+========================
+FX delta FX.SPOT.EUR:
+========================
+Total:  16.3827
+Errors: 2
+
+========================
+    0: 0
+    1: 16.3827
+    2: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 5-11-2074
+    3: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 8-7-2009
+========================
+

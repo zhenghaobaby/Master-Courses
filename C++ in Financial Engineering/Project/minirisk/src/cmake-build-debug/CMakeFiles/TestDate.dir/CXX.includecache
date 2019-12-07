@@ -1,0 +1,306 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveDiscount.cpp
+CurveDiscount.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveDiscount.h
+Market.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Market.h
+Streamer.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Streamer.h
+algorithm
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/algorithm
+cmath
+-
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveDiscount.h
+map
+-
+ICurve.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/ICurve.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveFXForward.cpp
+CurveFXForward.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveFXForward.h
+Market.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Market.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveFXForward.h
+map
+-
+ICurve.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/ICurve.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveFXSpot.cpp
+CurveFXSpot.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveFXSpot.h
+Market.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Market.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveFXSpot.h
+map
+-
+ICurve.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/ICurve.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Date.cpp
+iomanip
+-
+Date.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Date.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Date.h
+Macros.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Macros.h
+string
+-
+array
+-
+algorithm
+-
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/FixingDataSever.cpp
+FixingDataSever.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/FixingDataSever.h
+Macros.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Macros.h
+Streamer.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Streamer.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/FixingDataSever.h
+map
+-
+regex
+-
+Date.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Date.h
+Global.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Global.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Global.h
+cstddef
+-
+string
+-
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/ICurve.h
+memory
+-
+string
+-
+IObject.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/IObject.h
+Date.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Date.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/IObject.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/IPricer.h
+memory
+-
+FixingDataSever.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/FixingDataSever.h
+IObject.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/IObject.h
+Market.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Market.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/ITrade.h
+vector
+-
+memory
+-
+IObject.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/IObject.h
+IPricer.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/IPricer.h
+Streamer.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Streamer.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Macros.h
+exception
+-
+iostream
+-
+sstream
+-
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Market.cpp
+Market.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Market.h
+CurveDiscount.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveDiscount.h
+CurveFXSpot.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveFXSpot.h
+CurveFXForward.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveFXForward.h
+MarketDataServer.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/MarketDataServer.h
+string
+-
+vector
+-
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Market.h
+Global.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Global.h
+IObject.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/IObject.h
+ICurve.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/ICurve.h
+MarketDataServer.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/MarketDataServer.h
+vector
+-
+regex
+-
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/MarketDataServer.cpp
+MarketDataServer.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/MarketDataServer.h
+Macros.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Macros.h
+Streamer.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Streamer.h
+limits
+-
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/MarketDataServer.h
+map
+-
+regex
+-
+Global.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Global.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PortfolioUtils.cpp
+Global.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Global.h
+PortfolioUtils.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PortfolioUtils.h
+TradePayment.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradePayment.h
+TradeFXForward.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradeFXForward.h
+numeric
+-
+cmath
+-
+set
+-
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PortfolioUtils.h
+vector
+-
+ITrade.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/ITrade.h
+IPricer.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/IPricer.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PricePaymentForward.cpp
+PricePaymentForward.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PricePaymentForward.h
+cmath
+-
+Global.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Global.h
+Macros.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Macros.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PricePaymentForward.h
+Date.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Date.h
+IPricer.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/IPricer.h
+TradeFXForward.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradeFXForward.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PricerPayment.cpp
+PricerPayment.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PricerPayment.h
+TradePayment.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradePayment.h
+CurveDiscount.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveDiscount.h
+CurveFXSpot.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/CurveFXSpot.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PricerPayment.h
+IPricer.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/IPricer.h
+TradePayment.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradePayment.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Streamer.h
+vector
+-
+algorithm
+-
+iostream
+-
+fstream
+-
+sstream
+-
+iomanip
+-
+regex
+-
+inttypes.h
+-
+Global.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Global.h
+Date.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Date.h
+Macros.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Macros.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TestDate.cpp
+Date.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Date.h
+vector
+-
+string
+-
+ctime
+-
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Trade.h
+ITrade.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/ITrade.h
+Streamer.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Streamer.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradeFXForward.cpp
+TradeFXForward.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradeFXForward.h
+PricePaymentForward.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PricePaymentForward.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradeFXForward.h
+Trade.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Trade.h
+Date.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Date.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradeGuids.cpp
+TradePayment.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradePayment.h
+TradeFXForward.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradeFXForward.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradePayment.cpp
+TradePayment.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradePayment.h
+PricerPayment.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/PricerPayment.h
+
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/TradePayment.h
+Trade.h
+/cygdrive/d/Course/C++ in Financial Engineering/minirisk/src/Trade.h
+

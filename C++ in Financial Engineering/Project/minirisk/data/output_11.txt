@@ -1,0 +1,6873 @@
+Id                  0
+Name                Payment
+Quantity            20
+Currency            EUR
+Delivery Date       4-8-2017
+
+Id                  0
+Name                Payment
+Quantity            20
+Currency            EUR
+Delivery Date       2-2-2050
+
+Id                  0
+Name                Payment
+Quantity            20
+Currency            GBP
+Delivery Date       5-8-2017
+
+Id                  0
+Name                Payment
+Quantity            96
+Currency            GBP
+Delivery Date       5-1-2020
+
+Id                  0
+Name                Payment
+Quantity            103
+Currency            EUR
+Delivery Date       6-1-2022
+
+Id                  0
+Name                Payment
+Quantity            102
+Currency            GBP
+Delivery Date       3-11-2020
+
+Id                  0
+Name                Payment
+Quantity            72
+Currency            EUR
+Delivery Date       8-11-2022
+
+Id                  0
+Name                Payment
+Quantity            69
+Currency            EUR
+Delivery Date       3-9-2021
+
+Id                  0
+Name                Payment
+Quantity            5000
+Currency            JPY
+Delivery Date       9-11-2019
+
+Id                  0
+Name                Payment
+Quantity            46
+Currency            EUR
+Delivery Date       16-9-2019
+
+Id                  0
+Name                Payment
+Quantity            77
+Currency            GBP
+Delivery Date       20-11-2021
+
+Id                  0
+Name                Payment
+Quantity            4000
+Currency            JPY
+Delivery Date       14-3-2022
+
+Id                  0
+Name                Payment
+Quantity            77
+Currency            EUR
+Delivery Date       16-3-2018
+
+Id                  0
+Name                Payment
+Quantity            1200
+Currency            JPY
+Delivery Date       20-2-2020
+
+Id                  0
+Name                Payment
+Quantity            79
+Currency            EUR
+Delivery Date       14-2-2019
+
+Id                  0
+Name                Payment
+Quantity            66
+Currency            EUR
+Delivery Date       2-8-2020
+
+Id                  0
+Name                Payment
+Quantity            39
+Currency            GBP
+Delivery Date       25-12-2017
+
+Id                  0
+Name                Payment
+Quantity            29
+Currency            USD
+Delivery Date       18-4-2019
+
+Id                  0
+Name                Payment
+Quantity            108
+Currency            USD
+Delivery Date       16-8-2022
+
+Id                  0
+Name                Payment
+Quantity            80
+Currency            GBP
+Delivery Date       24-8-2020
+
+Id                  0
+Name                Payment
+Quantity            101
+Currency            USD
+Delivery Date       1-7-2021
+
+Id                  0
+Name                Payment
+Quantity            8300
+Currency            JPY
+Delivery Date       4-9-2022
+
+Id                  0
+Name                Payment
+Quantity            106
+Currency            GBP
+Delivery Date       2-3-2022
+
+Id                  0
+Name                Payment
+Quantity            35
+Currency            USD
+Delivery Date       27-12-2021
+
+Id                  0
+Name                Payment
+Quantity            46
+Currency            GBP
+Delivery Date       28-6-2018
+
+Id                  0
+Name                Payment
+Quantity            39
+Currency            GBP
+Delivery Date       25-8-2022
+
+Id                  0
+Name                Payment
+Quantity            34
+Currency            EUR
+Delivery Date       28-5-2022
+
+Id                  0
+Name                Payment
+Quantity            5500
+Currency            JPY
+Delivery Date       14-5-2018
+
+Id                  0
+Name                Payment
+Quantity            44
+Currency            USD
+Delivery Date       3-4-2023
+
+Id                  0
+Name                Payment
+Quantity            60
+Currency            EUR
+Delivery Date       21-9-2020
+
+Id                  0
+Name                Payment
+Quantity            8600
+Currency            JPY
+Delivery Date       21-11-2017
+
+Id                  0
+Name                Payment
+Quantity            94
+Currency            EUR
+Delivery Date       2-10-2019
+
+Id                  0
+Name                Payment
+Quantity            64
+Currency            EUR
+Delivery Date       26-7-2021
+
+Id                  0
+Name                Payment
+Quantity            70
+Currency            USD
+Delivery Date       11-10-2018
+
+Id                  0
+Name                Payment
+Quantity            49
+Currency            USD
+Delivery Date       20-1-2018
+
+Id                  0
+Name                Payment
+Quantity            9600
+Currency            JPY
+Delivery Date       27-4-2022
+
+Id                  0
+Name                Payment
+Quantity            10500
+Currency            JPY
+Delivery Date       26-1-2019
+
+Id                  0
+Name                Payment
+Quantity            88
+Currency            EUR
+Delivery Date       25-1-2022
+
+Id                  0
+Name                Payment
+Quantity            10700
+Currency            JPY
+Delivery Date       22-2-2018
+
+Id                  0
+Name                Payment
+Quantity            102
+Currency            USD
+Delivery Date       23-7-2019
+
+Id                  0
+Name                Payment
+Quantity            11
+Currency            USD
+Delivery Date       4-9-2022
+
+Id                  0
+Name                Payment
+Quantity            51
+Currency            GBP
+Delivery Date       17-4-2020
+
+Id                  0
+Name                Payment
+Quantity            54
+Currency            EUR
+Delivery Date       7-10-2022
+
+Id                  0
+Name                Payment
+Quantity            39
+Currency            EUR
+Delivery Date       14-9-2017
+
+Id                  0
+Name                Payment
+Quantity            107
+Currency            EUR
+Delivery Date       26-8-2020
+
+Id                  0
+Name                Payment
+Quantity            85
+Currency            GBP
+Delivery Date       21-8-2018
+
+Id                  0
+Name                Payment
+Quantity            77
+Currency            USD
+Delivery Date       28-5-2020
+
+Id                  0
+Name                Payment
+Quantity            6300
+Currency            JPY
+Delivery Date       6-8-2020
+
+Id                  0
+Name                Payment
+Quantity            16
+Currency            EUR
+Delivery Date       1-6-2019
+
+Id                  0
+Name                Payment
+Quantity            34
+Currency            USD
+Delivery Date       20-5-2020
+
+Id                  0
+Name                Payment
+Quantity            42
+Currency            GBP
+Delivery Date       23-1-2018
+
+Id                  0
+Name                Payment
+Quantity            2900
+Currency            JPY
+Delivery Date       8-8-2017
+
+Id                  0
+Name                Payment
+Quantity            18
+Currency            EUR
+Delivery Date       4-5-2021
+
+Id                  3
+Name                FX.Forward
+Quantity            20
+Strike level        1
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         1-8-2017
+Settlement Date     4-8-2017
+
+Id                  3
+Name                FX.Forward
+Quantity            20
+Strike level        1
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         1-8-2017
+Settlement Date     8-8-2017
+
+Id                  3
+Name                FX.Forward
+Quantity            59
+Strike level        1.02038
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         4-8-2017
+Settlement Date     7-5-2019
+
+Id                  3
+Name                FX.Forward
+Quantity            5500
+Strike level        92.9384
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         4-8-2017
+Settlement Date     23-6-2021
+
+Id                  3
+Name                FX.Forward
+Quantity            65
+Strike level        0.5994
+Base Currency       EUR
+Quote Currency      GBP
+Fixing Date         4-8-2017
+Settlement Date     12-1-2022
+
+Id                  3
+Name                FX.Forward
+Quantity            38
+Strike level        1.47876
+Base Currency       GBP
+Quote Currency      USD
+Fixing Date         4-8-2017
+Settlement Date     12-11-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            1000
+Strike level        96.9792
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         4-8-2017
+Settlement Date     29-5-2021
+
+Id                  3
+Name                FX.Forward
+Quantity            24
+Strike level        0.6512
+Base Currency       EUR
+Quote Currency      GBP
+Fixing Date         4-8-2017
+Settlement Date     3-8-2022
+
+Id                  3
+Name                FX.Forward
+Quantity            101
+Strike level        0.5994
+Base Currency       EUR
+Quote Currency      GBP
+Fixing Date         4-8-2017
+Settlement Date     14-5-2022
+
+Id                  3
+Name                FX.Forward
+Quantity            46
+Strike level        1.02038
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         4-8-2017
+Settlement Date     3-9-2019
+
+Id                  3
+Name                FX.Forward
+Quantity            38
+Strike level        0.6068
+Base Currency       EUR
+Quote Currency      GBP
+Fixing Date         4-8-2017
+Settlement Date     3-4-2021
+
+Id                  3
+Name                FX.Forward
+Quantity            3100
+Strike level        96.9792
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         4-8-2017
+Settlement Date     22-11-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            47
+Strike level        0.7104
+Base Currency       EUR
+Quote Currency      GBP
+Fixing Date         4-8-2017
+Settlement Date     30-6-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            38
+Strike level        0.6142
+Base Currency       EUR
+Quote Currency      GBP
+Fixing Date         4-8-2017
+Settlement Date     19-4-2022
+
+Id                  3
+Name                FX.Forward
+Quantity            39
+Strike level        1.04281
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         4-8-2017
+Settlement Date     21-3-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            73
+Strike level        1.25009
+Base Currency       GBP
+Quote Currency      USD
+Fixing Date         4-8-2017
+Settlement Date     30-12-2020
+
+Id                  3
+Name                FX.Forward
+Quantity            50
+Strike level        1.07645
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         4-8-2017
+Settlement Date     15-8-2020
+
+Id                  3
+Name                FX.Forward
+Quantity            98
+Strike level        1.40254
+Base Currency       GBP
+Quote Currency      USD
+Fixing Date         4-8-2017
+Settlement Date     3-7-2021
+
+Id                  3
+Name                FX.Forward
+Quantity            106
+Strike level        0.89704
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         4-8-2017
+Settlement Date     27-7-2022
+
+Id                  3
+Name                FX.Forward
+Quantity            9300
+Strike level        101.02
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         4-8-2017
+Settlement Date     10-6-2022
+
+Id                  3
+Name                FX.Forward
+Quantity            35
+Strike level        0.964318
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         4-8-2017
+Settlement Date     20-11-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            4900
+Strike level        87.8874
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         4-8-2017
+Settlement Date     6-6-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            9200
+Strike level        6.73467
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         5-8-2017
+Settlement Date     6-6-2019
+
+Id                  3
+Name                FX.Forward
+Quantity            17
+Strike level        0.0493333
+Base Currency       EUR
+Quote Currency      GBP
+Fixing Date         5-8-2017
+Settlement Date     7-9-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            2100
+Strike level        13.4693
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         5-8-2017
+Settlement Date     16-3-2023
+
+Id                  3
+Name                FX.Forward
+Quantity            5300
+Strike level        13.4693
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         5-8-2017
+Settlement Date     6-5-2023
+
+Id                  3
+Name                FX.Forward
+Quantity            32
+Strike level        0.123333
+Base Currency       EUR
+Quote Currency      GBP
+Fixing Date         5-8-2017
+Settlement Date     15-9-2017
+
+Id                  3
+Name                FX.Forward
+Quantity            11
+Strike level        0.254083
+Base Currency       GBP
+Quote Currency      USD
+Fixing Date         5-8-2017
+Settlement Date     19-11-2017
+
+Id                  3
+Name                FX.Forward
+Quantity            15
+Strike level        0.299013
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         5-8-2017
+Settlement Date     19-7-2020
+
+Id                  3
+Name                FX.Forward
+Quantity            3600
+Strike level        8.41833
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         5-8-2017
+Settlement Date     20-7-2021
+
+Id                  3
+Name                FX.Forward
+Quantity            2600
+Strike level        30.306
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         5-8-2017
+Settlement Date     31-1-2020
+
+Id                  3
+Name                FX.Forward
+Quantity            4700
+Strike level        6.73467
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         5-8-2017
+Settlement Date     18-3-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            46
+Strike level        0.355078
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         5-8-2017
+Settlement Date     14-9-2021
+
+Id                  3
+Name                FX.Forward
+Quantity            60
+Strike level        0.205572
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         5-8-2017
+Settlement Date     8-3-2019
+
+Id                  3
+Name                FX.Forward
+Quantity            41
+Strike level        0.254083
+Base Currency       GBP
+Quote Currency      USD
+Fixing Date         5-8-2017
+Settlement Date     18-8-2021
+
+Id                  3
+Name                FX.Forward
+Quantity            104
+Strike level        0.056065
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         5-8-2017
+Settlement Date     4-6-2020
+
+Id                  3
+Name                FX.Forward
+Quantity            91
+Strike level        0.197333
+Base Currency       EUR
+Quote Currency      GBP
+Fixing Date         5-8-2017
+Settlement Date     26-1-2023
+
+Id                  3
+Name                FX.Forward
+Quantity            83
+Strike level        0.203267
+Base Currency       GBP
+Quote Currency      USD
+Fixing Date         5-8-2017
+Settlement Date     4-9-2019
+
+Id                  3
+Name                FX.Forward
+Quantity            10500
+Strike level        10.102
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         5-8-2017
+Settlement Date     1-7-2022
+
+Id                  3
+Name                FX.Forward
+Quantity            5000
+Strike level        6.73467
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         5-8-2017
+Settlement Date     7-1-2020
+
+Id                  3
+Name                FX.Forward
+Quantity            52
+Strike level        0.130818
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         5-8-2017
+Settlement Date     9-5-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            66
+Strike level        0.222
+Base Currency       EUR
+Quote Currency      GBP
+Fixing Date         5-8-2017
+Settlement Date     25-8-2022
+
+Id                  3
+Name                FX.Forward
+Quantity            58
+Strike level        0.355078
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         20-5-2018
+Settlement Date     7-7-2019
+
+Id                  3
+Name                FX.Forward
+Quantity            2000
+Strike level        11.7857
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         15-8-2017
+Settlement Date     18-7-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            23
+Strike level        0.0186883
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         12-8-2017
+Settlement Date     10-6-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            109
+Strike level        0.101633
+Base Currency       GBP
+Quote Currency      USD
+Fixing Date         30-9-2017
+Settlement Date     29-12-2019
+
+Id                  3
+Name                FX.Forward
+Quantity            50
+Strike level        0.0616667
+Base Currency       EUR
+Quote Currency      GBP
+Fixing Date         23-12-2017
+Settlement Date     14-3-2020
+
+Id                  3
+Name                FX.Forward
+Quantity            60
+Strike level        0.33639
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         22-3-2018
+Settlement Date     28-7-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            32
+Strike level        0.406533
+Base Currency       GBP
+Quote Currency      USD
+Fixing Date         4-12-2017
+Settlement Date     17-7-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            94
+Strike level        0.22426
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         30-11-2018
+Settlement Date     22-8-2020
+
+Id                  3
+Name                FX.Forward
+Quantity            35
+Strike level        0.0508167
+Base Currency       GBP
+Quote Currency      USD
+Fixing Date         5-5-2018
+Settlement Date     2-9-2020
+
+Id                  3
+Name                FX.Forward
+Quantity            5200
+Strike level        21.8877
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         18-12-2018
+Settlement Date     19-9-2020
+
+Id                  3
+Name                FX.Forward
+Quantity            3400
+Strike level        15.153
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         12-11-2017
+Settlement Date     22-5-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            46
+Strike level        0.280325
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         22-8-2018
+Settlement Date     19-11-2020
+
+Id                  3
+Name                FX.Forward
+Quantity            89
+Strike level        0.330308
+Base Currency       GBP
+Quote Currency      USD
+Fixing Date         16-2-2018
+Settlement Date     21-2-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            65
+Strike level        0.0373767
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         29-1-2018
+Settlement Date     29-5-2020
+
+Id                  3
+Name                FX.Forward
+Quantity            103
+Strike level        0.0254083
+Base Currency       GBP
+Quote Currency      USD
+Fixing Date         1-2-2018
+Settlement Date     5-7-2020
+
+Id                  3
+Name                FX.Forward
+Quantity            23
+Strike level        0.355717
+Base Currency       GBP
+Quote Currency      USD
+Fixing Date         8-8-2018
+Settlement Date     26-12-2019
+
+Id                  3
+Name                FX.Forward
+Quantity            5400
+Strike level        3.36733
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         10-12-2017
+Settlement Date     27-8-2018
+
+Id                  3
+Name                FX.Forward
+Quantity            3100
+Strike level        13.4693
+Base Currency       USD
+Quote Currency      JPY
+Fixing Date         25-12-2018
+Settlement Date     17-2-2021
+
+Id                  3
+Name                FX.Forward
+Quantity            82
+Strike level        0.33639
+Base Currency       EUR
+Quote Currency      USD
+Fixing Date         16-1-2019
+Settlement Date     25-7-2019
+
+Id                  3
+Name                FX.Forward
+Quantity            18
+Strike level        0.203267
+Base Currency       GBP
+Quote Currency      USD
+Fixing Date         17-12-2018
+Settlement Date     23-1-2019
+
+========================
+PV:
+========================
+Total:  30882.1
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 30.49
+    3: 116.46
+    4: 75.0578
+    5: 108.049
+    6: 46.4582
+    7: 52.3909
+    8: 30.9278
+    9: 44.2264
+   10: 68.75
+   11: 1.1917
+   12: 83.7063
+   13: 5.15296
+   14: 79.9687
+   15: 57.0998
+   16: 58.2271
+   17: 24.3501
+   18: 56.0667
+   19: 87.48
+   20: 61.8956
+   21: 1.36849
+   22: 90.4201
+   23: 19.9604
+   24: 65.9644
+   25: 30.6657
+   26: 23.6463
+   27: 52.0299
+   28: 20.5216
+   29: 51.0626
+   30: 83.5105
+   31: 89.9015
+   32: 49.2215
+   33: 62.4793
+   34: 47.1959
+   35: 2.44719
+   36: 94.6691
+   37: 63.7277
+   38: 102.683
+   39: 83.0278
+   40: 5.66019
+   41: 59.0825
+   42: 35.46
+   43: 43.5872
+   44: 91.8434
+   45: 120.346
+   46: 55.3935
+   47: 14.9172
+   48: 15.8208
+   49: 24.5382
+   50: 62.4079
+   51: 28.4177
+   52: 14.2265
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 4.96879
+   56: 33.7465
+   57: 7.96857
+   58: 1.53524
+   59: 3.35203
+   60: 1.69689
+   61: 11.7241
+   62: 3.71929
+   63: 5.01144
+   64: 114.357
+   65: 1.99407
+   66: 3.99112
+   67: 2.90076
+   68: 13.2129
+   69: 1.56291
+   70: 7.31868
+   71: 12.4498
+   72: 0
+   73: 4.84105
+   74: 606.275
+   75: 7709.33
+   76: 16.4469
+   77: 18.0732
+   78: 39.6652
+   79: 29.7305
+   80: 13.6651
+   81: 8.68977
+   82: 232.542
+   83: 859.719
+   84: 4280.46
+   85: 20.9586
+   86: 46.7494
+   87: 31.3106
+   88: 79.4741
+   89: 35.2438
+   90: 87.8255
+   91: 195.46
+   92: 2391.54
+   93: 48.1445
+   94: 26.6496
+   95: 37.7791
+   96: 1686.53
+   97: 23.5041
+   98: 118.983
+   99: 39.7969
+  100: 44.4122
+  101: 33.1913
+  102: 61.9092
+  103: 36.3458
+  104: 782.067
+  105: 2749.91
+  106: 27.1279
+  107: 103.333
+  108: 51.6127
+  109: 110.887
+  110: 21.1766
+  111: 4863.98
+  112: 303.683
+  113: 56.1193
+  114: 21.3022
+========================
+
+Risk factors:
+FX.SPOT.EUR
+FX.SPOT.GBP
+FX.SPOT.JPY
+IR.10Y.EUR
+IR.10Y.GBP
+IR.10Y.JPY
+IR.10Y.USD
+IR.1M.EUR
+IR.1M.GBP
+IR.1M.JPY
+IR.1M.USD
+IR.1W.EUR
+IR.1W.GBP
+IR.1W.JPY
+IR.1W.USD
+IR.1Y.EUR
+IR.1Y.GBP
+IR.1Y.JPY
+IR.1Y.USD
+IR.2M.EUR
+IR.2M.GBP
+IR.2M.JPY
+IR.2M.USD
+IR.2W.EUR
+IR.2W.GBP
+IR.2W.JPY
+IR.2W.USD
+IR.2Y.EUR
+IR.2Y.GBP
+IR.2Y.JPY
+IR.2Y.USD
+IR.3M.EUR
+IR.3M.GBP
+IR.3M.JPY
+IR.3M.USD
+IR.5Y.EUR
+IR.5Y.GBP
+IR.5Y.JPY
+IR.5Y.USD
+IR.6M.EUR
+IR.6M.GBP
+IR.6M.JPY
+IR.6M.USD
+
+========================
+PV01 bucketed IR.10Y.EUR:
+========================
+Total:  -36.8735
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: -24.4383
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: -12.4353
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.10Y.GBP:
+========================
+Total:  -40.3907
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: -3.52866
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: -33.7955
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: -3.06652
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.10Y.JPY:
+========================
+Total:  -82.185
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: -0.232455
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: -22.183
+   78: -59.7695
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.10Y.USD:
+========================
+Total:  -31.8602
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: -3.68658
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: -27.2122
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: -0.961456
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.1M.EUR:
+========================
+Total:  -2.38834
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: -2.38834
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.1M.GBP:
+========================
+Total:  -2.94434
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: -1.54762
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: -1.39673
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.1M.JPY:
+========================
+Total:  0
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.1M.USD:
+========================
+Total:  1.39673
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 1.39673
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.1W.EUR:
+========================
+Total:  -0.4584
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: -0.4584
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.1W.GBP:
+========================
+Total:  0
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.1W.JPY:
+========================
+Total:  20.6646
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: -0.23357
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 20.8982
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.1W.USD:
+========================
+Total:  -20.4398
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: -20.8982
+   97: 0.4584
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.1Y.EUR:
+========================
+Total:  -237.887
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: -19.4561
+   13: 0
+   14: -37.6839
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: -2.8174
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: -31.8921
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: -16.6501
+  101: 0
+  102: -52.0183
+  103: 0
+  104: 0
+  105: 0
+  106: -34.1084
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: -43.2607
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.1Y.GBP:
+========================
+Total:  -256.289
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: -52.4149
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: -115.071
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: -1.60603
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: -14.9599
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: -18.8898
+  104: 0
+  105: 0
+  106: 0
+  107: -10.6547
+  108: 0
+  109: 0
+  110: -27.2125
+  111: 0
+  112: 0
+  113: 0
+  114: -15.4801
+========================
+
+========================
+PV01 bucketed IR.1Y.JPY:
+========================
+Total:  -9762.62
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: -28.6868
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: -49.5392
+   37: 0
+   38: -11.6559
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: -80.2064
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: -409.645
+   75: -1267.29
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: -1041.19
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: -1522.43
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 638.112
+  105: -1635.08
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: -4570.81
+  112: 215.806
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.1Y.USD:
+========================
+Total:  -831.814
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: -7.27166
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: -51.0105
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: -2.95715
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: -1.22518
+   56: 0
+   57: 0
+   58: -1.11884
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: -0.75263
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: -3.42189
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: -19.2121
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: -25.2433
+   94: 0
+   95: 28.8905
+   96: 0
+   97: -16.3893
+   98: 0
+   99: 0
+  100: -25.8415
+  101: -29.7825
+  102: 52.0183
+  103: 18.8898
+  104: -638.112
+  105: 0
+  106: 34.1084
+  107: -0.516394
+  108: 0
+  109: 0
+  110: 27.2125
+  111: 0
+  112: -215.806
+  113: 41.5695
+  114: 4.15785
+========================
+
+========================
+PV01 bucketed IR.2M.EUR:
+========================
+Total:  -2.38834
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: -2.38834
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.2M.GBP:
+========================
+Total:  -19.9494
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: -1.79198
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: -18.1574
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.2M.JPY:
+========================
+Total:  0
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.2M.USD:
+========================
+Total:  18.1574
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 18.1574
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.2W.EUR:
+========================
+Total:  0
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.2W.GBP:
+========================
+Total:  0
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.2W.JPY:
+========================
+Total:  31.3473
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 31.3473
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.2W.USD:
+========================
+Total:  -31.3473
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: -31.3473
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.2Y.EUR:
+========================
+Total:  -879.153
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: -28.7893
+    5: 0
+    6: 0
+    7: -32.0565
+    8: 0
+    9: -85.0601
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: -84.5696
+   15: -76.3417
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: -2.93689
+   27: 0
+   28: 0
+   29: -63.6068
+   30: 0
+   31: -170.279
+   32: -33.6235
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: -22.232
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: -118.767
+   45: 0
+   46: 0
+   47: 0
+   48: -26.0068
+   49: 0
+   50: 0
+   51: 0
+   52: -11.8749
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: -49.0818
+  103: 0
+  104: 0
+  105: 0
+  106: -3.33243
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: -70.5947
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.2Y.GBP:
+========================
+Total:  -693.703
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: -200.375
+    4: 0
+    5: -126.106
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: -32.2717
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: -113.444
+   20: 0
+   21: 0
+   22: -25.5984
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: -90.5392
+   42: 0
+   43: 0
+   44: 0
+   45: -10.5509
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: -2.96911
+   58: 0
+   59: 0
+   60: -0.00309935
+   61: -1.75594
+   62: 0
+   63: -4.46682
+   64: 0
+   65: 0
+   66: -0.78
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: -2.97396
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: -63.457
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: -0.451036
+  111: 0
+  112: 0
+  113: 0
+  114: -17.9596
+========================
+
+========================
+PV01 bucketed IR.2Y.JPY:
+========================
+Total:  -19708.9
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: -56.4327
+    9: 0
+   10: 0
+   11: -0.311257
+   12: 0
+   13: -8.43297
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: -0.442505
+   36: -90.2599
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: -19.835
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: -25.0864
+   57: 0
+   58: 0
+   59: -2.64489
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: -68.3008
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: -12884.1
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: -161.399
+   83: -1438.36
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: -12.1382
+   92: -4106.02
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: -227.96
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: -586.343
+  112: -20.8021
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.2Y.USD:
+========================
+Total:  -2523.17
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: -34.1568
+   18: 0
+   19: 0
+   20: -45.1075
+   21: 0
+   22: 0
+   23: -8.02061
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: -22.9376
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: -160.141
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: -80.738
+   47: 0
+   48: 0
+   49: -36.1239
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: -7.48722
+   56: 0
+   57: 0
+   58: -0.832817
+   59: 0
+   60: 0
+   61: 0
+   62: -7.24157
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: -14.0455
+   69: -2.05248
+   70: -5.30688
+   71: -0.181915
+   72: 0
+   73: -2.83832
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: -11.8403
+   82: 0
+   83: 0
+   84: 0
+   85: -12.4029
+   86: -55.0747
+   87: -20.0731
+   88: -114.82
+   89: 0
+   90: -170.839
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: -69.555
+   96: 0
+   97: 0
+   98: -206.238
+   99: 0
+  100: 0
+  101: 0
+  102: -31.4284
+  103: -46.5359
+  104: -749.088
+  105: 0
+  106: -27.5364
+  107: 0
+  108: -75.1331
+  109: -153.926
+  110: -36.371
+  111: 0
+  112: -274.838
+  113: -38.2614
+  114: -2.00025
+========================
+
+========================
+PV01 bucketed IR.3M.EUR:
+========================
+Total:  -5.19733
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: -4.75876
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: -0.438574
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.3M.GBP:
+========================
+Total:  -10.1354
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: -6.062
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: -1.53883
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 4.75876
+  100: 0
+  101: -7.29337
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.3M.JPY:
+========================
+Total:  1432.57
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: -16.4733
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 718.258
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 730.787
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.3M.USD:
+========================
+Total:  -1445.64
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: -1.55165
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: -2.77046
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 7.29337
+  102: 0
+  103: 0
+  104: 0
+  105: -718.258
+  106: 0
+  107: 0
+  108: 0.438574
+  109: 0
+  110: 0
+  111: -730.787
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.5Y.EUR:
+========================
+Total:  -1839.26
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: -303.316
+    5: 0
+    6: -220.072
+    7: -181.813
+    8: 0
+    9: -8.48178
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: -94.6449
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: -110.889
+   27: 0
+   28: 0
+   29: -96.2961
+   30: 0
+   31: -23.8095
+   32: -162.049
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: -263.059
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: -171.082
+   43: 0
+   44: -162.299
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: -41.4453
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.5Y.GBP:
+========================
+Total:  -1790.34
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: -81.3626
+    4: 0
+    5: -224.979
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: -263.071
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: -153.789
+   20: 0
+   21: 0
+   22: -388.104
+   23: 0
+   24: 0
+   25: -151.564
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: -69.0645
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: -32.4201
+   58: 0
+   59: 0
+   60: -8.47672
+   61: -54.2306
+   62: 0
+   63: -13.8902
+   64: 0
+   65: 0
+   66: -18.0056
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: -159.322
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: -131.715
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: -40.3421
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.5Y.JPY:
+========================
+Total:  -6778.68
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: -13.5574
+    9: 0
+   10: 0
+   11: -5.18035
+   12: 0
+   13: -4.68237
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: -6.72621
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: -11.1297
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: -24.9982
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: -106.016
+   57: 0
+   58: 0
+   59: -10.1479
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: -79.2746
+   78: -168.441
+   79: 0
+   80: 0
+   81: 0
+   82: -759.212
+   83: -702.692
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: -946.955
+   92: -1692.64
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: -1467.72
+  105: 0
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 0
+  112: -779.314
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.5Y.USD:
+========================
+Total:  -1780.01
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: -278.49
+   19: 0
+   20: -196.709
+   21: 0
+   22: 0
+   23: -79.7504
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: -89.0018
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: -27.8202
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: -75.1227
+   47: 0
+   48: 0
+   49: -32.3815
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: -0.492508
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: -30.9507
+   69: -2.68335
+   70: -23.3262
+   71: -61.7942
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: -13.8481
+   82: 0
+   83: 0
+   84: 0
+   85: -73.7858
+   86: 0
+   87: -106.37
+   88: -110.32
+   89: 0
+   90: -12.0309
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: -79.3222
+   99: 0
+  100: 0
+  101: 0
+  102: -108.27
+  103: -65.3892
+  104: 0
+  105: 0
+  106: -58.4675
+  107: 0
+  108: -70.231
+  109: -169.622
+  110: -13.8276
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.6M.EUR:
+========================
+Total:  -103.022
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: -31.6851
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: -11.2132
+   96: 0
+   97: 0
+   98: 0
+   99: -11.8969
+  100: -22.7898
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: 0
+  106: 0
+  107: 0
+  108: -25.4373
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.6M.GBP:
+========================
+Total:  -171.294
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: -16.5907
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: -6.68192
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: -27.6989
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: -0.19136
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: 0
+   97: 0
+   98: 0
+   99: 11.8969
+  100: 0
+  101: -7.66422
+  102: 0
+  103: -9.21533
+  104: 0
+  105: 0
+  106: 0
+  107: -59.5497
+  108: 0
+  109: -55.5986
+  110: 0
+  111: 0
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.6M.JPY:
+========================
+Total:  -1209.8
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: -11.5117
+   28: 0
+   29: 0
+   30: -8.23665
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: -44.8902
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: -96.9681
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: -1597.45
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: 0
+   96: -80.9233
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: 0
+  105: -390.164
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: 1020.34
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 bucketed IR.6M.USD:
+========================
+Total:  -1073.8
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: -20.1714
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: -1.05935
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: -1.19804
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: -11.2937
+   94: 0
+   95: 11.2132
+   96: 0
+   97: -3.50864
+   98: 0
+   99: 0
+  100: 21.8426
+  101: 5.98314
+  102: 0
+  103: 9.21533
+  104: 0
+  105: -159.613
+  106: 0
+  107: 14.1001
+  108: 25.4373
+  109: 55.5986
+  110: 0
+  111: -1020.34
+  112: 0
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 parallel IR.EUR:
+========================
+Total:  -3106.62
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: -332.105
+    5: 0
+    6: -244.51
+    7: -213.87
+    8: 0
+    9: -93.5419
+   10: 0
+   11: 0
+   12: -51.1411
+   13: 0
+   14: -122.254
+   15: -170.987
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: -113.826
+   27: 0
+   28: 0
+   29: -159.903
+   30: 0
+   31: -194.089
+   32: -195.672
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: -285.291
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: -183.517
+   43: -4.77668
+   44: -281.066
+   45: 0
+   46: 0
+   47: 0
+   48: -28.8242
+   49: 0
+   50: 0
+   51: 0
+   52: -53.3202
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 0
+   95: -43.1053
+   96: 0
+   97: -0.4584
+   98: 0
+   99: -16.6557
+  100: -39.4399
+  101: 0
+  102: -101.1
+  103: 0
+  104: 0
+  105: 0
+  106: -37.4408
+  107: 0
+  108: -25.8759
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: -113.855
+  114: 0
+========================
+
+========================
+PV01 parallel IR.GBP:
+========================
+Total:  -2985.04
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: -281.738
+    4: 0
+    5: -351.085
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: -295.342
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: -22.6527
+   17: 0
+   18: 0
+   19: -267.233
+   20: 0
+   21: 0
+   22: -413.703
+   23: 0
+   24: -59.0969
+   25: -155.093
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: -159.604
+   42: 0
+   43: 0
+   44: 0
+   45: -125.622
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: -29.2377
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: -35.3892
+   58: 0
+   59: 0
+   60: -8.47982
+   61: -55.9865
+   62: 0
+   63: -18.357
+   64: 0
+   65: -1.79739
+   66: -18.7856
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: -17.9339
+   77: 0
+   78: 0
+   79: -3.33959
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: -193.117
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: -134.781
+   95: 0
+   96: 0
+   97: 0
+   98: -19.5542
+   99: -87.1435
+  100: 0
+  101: -14.9576
+  102: 0
+  103: -28.1051
+  104: 0
+  105: 0
+  106: 0
+  107: -70.2045
+  108: 0
+  109: -55.5986
+  110: -27.6635
+  111: 0
+  112: 0
+  113: 0
+  114: -33.4397
+========================
+
+========================
+PV01 parallel IR.JPY:
+========================
+Total:  -36057.6
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: -69.9901
+    9: 0
+   10: 0
+   11: -5.49161
+   12: 0
+   13: -13.1153
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: -6.95867
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: -40.1985
+   28: 0
+   29: 0
+   30: -24.7099
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: -11.5722
+   36: -139.799
+   37: 0
+   38: -56.5461
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: -44.8332
+   48: 0
+   49: 0
+   50: 0
+   51: -0.23357
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: -131.103
+   57: 0
+   58: 0
+   59: -12.7928
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: -148.507
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: -506.613
+   75: -14151.4
+   76: 0
+   77: -101.458
+   78: -228.211
+   79: 0
+   80: 0
+   81: 0
+   82: -920.611
+   83: -2141.05
+   84: -2638.64
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: -959.093
+   92: -5798.65
+   93: 0
+   94: 0
+   95: 0
+   96: -1551.11
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: -1057.56
+  105: -1306.99
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: -3406.02
+  112: -584.31
+  113: 0
+  114: 0
+========================
+
+========================
+PV01 parallel IR.USD:
+========================
+Total:  -7718.52
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+   17: -41.4285
+   18: -282.177
+   19: 0
+   20: -241.817
+   21: 0
+   22: 0
+   23: -87.771
+   24: 0
+   25: 0
+   26: 0
+   27: 0
+   28: -116.214
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: -73.9481
+   34: -21.7231
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: -163.098
+   40: -28.7817
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: -155.861
+   47: 0
+   48: 0
+   49: -68.5054
+   50: 0
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: -8.7124
+   56: 0
+   57: 0
+   58: -1.95165
+   59: 0
+   60: 0
+   61: 0
+   62: -7.73408
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: -1.81198
+   68: -44.9961
+   69: -4.73583
+   70: -28.6331
+   71: -61.9761
+   72: 0
+   73: -6.26021
+   74: 0
+   75: 0
+   76: 0
+   77: 0
+   78: 0
+   79: 0
+   80: -3.9685
+   81: -25.6884
+   82: 0
+   83: 0
+   84: 0
+   85: -86.1887
+   86: -74.2868
+   87: -126.444
+   88: -225.14
+   89: 0
+   90: -182.869
+   91: 0
+   92: 0
+   93: -36.537
+   94: 0
+   95: -29.4513
+   96: -52.2455
+   97: -19.4396
+   98: -266.006
+   99: 0
+  100: -3.99891
+  101: -16.506
+  102: -87.6804
+  103: -83.8201
+  104: -1387.2
+  105: -877.871
+  106: -51.8955
+  107: 13.5837
+  108: -119.488
+  109: -267.95
+  110: -22.9862
+  111: -1751.13
+  112: -490.644
+  113: 3.30811
+  114: 2.15761
+========================
+
+========================
+FX delta FX.SPOT.EUR:
+========================
+Total:  1325.39
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 66.9382
+    5: 0
+    6: 41.4324
+    7: 46.7233
+    8: 0
+    9: 39.4421
+   10: 0
+   11: 0
+   12: 74.6511
+   13: 0
+   14: 71.3178
+   15: 50.9229
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 0
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 21.0883
+   27: 0
+   28: 0
+   29: 45.5388
+   30: 0
+   31: 80.1762
+   32: 43.8968
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 56.8338
+   38: 0
+   39: 0
+   40: 0
+   41: 0
+   42: 31.624
+   43: 38.872
+   44: 81.9079
+   45: 0
+   46: 0
+   47: 0
+   48: 14.1093
+   49: 0
+   50: 0
+   51: 0
+   52: 12.6875
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 0
+   58: 0
+   59: 0
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 0
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: 15.7222
+   77: 0
+   78: 0
+   79: 31.856
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 42.9559
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: 34.0412
+   95: 48.7202
+   96: 0
+   97: 21.3166
+   98: 0
+   99: 38.7262
+  100: 56.0623
+  101: 0
+  102: 68.2772
+  103: 0
+  104: 0
+  105: 0
+  106: 31.9046
+  107: 0
+  108: 47.5874
+  109: 0
+  110: 0
+  111: 0
+  112: 0
+  113: 70.0598
+  114: 0
+========================
+
+========================
+FX delta FX.SPOT.GBP:
+========================
+Total:  919.437
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 20
+    3: 76.3923
+    4: 0
+    5: 70.875
+    6: 0
+    7: 0
+    8: 0
+    9: 0
+   10: 45.0967
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 38.1942
+   17: 0
+   18: 0
+   19: 57.3827
+   20: 0
+   21: 0
+   22: 59.3113
+   23: 0
+   24: 43.2695
+   25: 20.1153
+   26: 0
+   27: 0
+   28: 0
+   29: 0
+   30: 0
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 0
+   36: 0
+   37: 0
+   38: 0
+   39: 0
+   40: 0
+   41: 38.7553
+   42: 0
+   43: 0
+   44: 0
+   45: 78.9414
+   46: 0
+   47: 0
+   48: 0
+   49: 0
+   50: 40.9367
+   51: 0
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 0
+   57: 5.22701
+   58: 0
+   59: 0
+   60: 1.11308
+   61: 7.69044
+   62: 0
+   63: 3.28727
+   64: 0
+   65: 1.30801
+   66: 2.61799
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 0
+   75: 0
+   76: -0.775631
+   77: 0
+   78: 0
+   79: -3.92891
+   80: 0
+   81: 0
+   82: 0
+   83: 0
+   84: 0
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: -8.47664
+   90: 0
+   91: 0
+   92: 0
+   93: 0
+   94: -7.55715
+   95: 0
+   96: 0
+   97: 0
+   98: 83.602
+   99: -2.37897
+  100: 0
+  101: 29.5966
+  102: 0
+  103: 24.6483
+  104: 0
+  105: 0
+  106: 0
+  107: 86.1977
+  108: 0
+  109: 73.9532
+  110: 17.998
+  111: 0
+  112: 0
+  113: 0
+  114: 16.0445
+========================
+
+========================
+FX delta FX.SPOT.JPY:
+========================
+Total:  -144042
+Errors: 4
+
+========================
+    0: Curve IR.DISCOUNT.EUR, DF not available before anchor date 5-8-2017, requested 4-8-2017
+    1: Curve IR.DISCOUNT.EUR, DF not available beyond last tenor date 3-8-2027, requested 2-2-2050
+    2: 0
+    3: 0
+    4: 0
+    5: 0
+    6: 0
+    7: 0
+    8: 3155.9
+    9: 0
+   10: 0
+   11: 121.602
+   12: 0
+   13: 525.812
+   14: 0
+   15: 0
+   16: 0
+   17: 0
+   18: 0
+   19: 0
+   20: 0
+   21: 139.642
+   22: 0
+   23: 0
+   24: 0
+   25: 0
+   26: 0
+   27: 5309.18
+   28: 0
+   29: 0
+   30: 8521.48
+   31: 0
+   32: 0
+   33: 0
+   34: 0
+   35: 249.713
+   36: 9660.11
+   37: 0
+   38: 10477.9
+   39: 0
+   40: 0
+   41: 0
+   42: 0
+   43: 0
+   44: 0
+   45: 0
+   46: 0
+   47: 1522.16
+   48: 0
+   49: 0
+   50: 0
+   51: 2899.76
+   52: 0
+   53: Curve IR.DISCOUNT.USD, DF not available before anchor date 5-8-2017, requested 4-8-2017
+   54: Fixing not found: FX.SPOT.EUR.USD,1-8-2017
+   55: 0
+   56: 3443.52
+   57: 0
+   58: 0
+   59: 342.043
+   60: 0
+   61: 0
+   62: 0
+   63: 0
+   64: 11669.1
+   65: 0
+   66: 0
+   67: 0
+   68: 0
+   69: 0
+   70: 0
+   71: 0
+   72: 0
+   73: 0
+   74: 61864.8
+   75: -55588.6
+   76: 0
+   77: -280.454
+   78: -615.511
+   79: 0
+   80: 0
+   81: 0
+   82: -2133.64
+   83: -37062
+   84: -30864.5
+   85: 0
+   86: 0
+   87: 0
+   88: 0
+   89: 0
+   90: 0
+   91: -2191.49
+   92: -17244.3
+   93: 0
+   94: 0
+   95: 0
+   96: -22493.3
+   97: 0
+   98: 0
+   99: 0
+  100: 0
+  101: 0
+  102: 0
+  103: 0
+  104: -23529.5
+  105: -49662.3
+  106: 0
+  107: 0
+  108: 0
+  109: 0
+  110: 0
+  111: -17224
+  112: -5055.31
+  113: 0
+  114: 0
+========================
+
