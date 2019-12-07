@@ -1,0 +1,5 @@
+This is a project which focus on Realized Volatility Predication. As we the volatility make a very important role in 
+derivative pricing and hedging. 
+This project use overall 14 models(including Garch, Realized Garch, EGarch, RW, EWMA and so on) to predict 
+the Realized Volatility in stock indexs which belongs to 12 countries. The result is international and consistent.  
+And we compare the accuracy of prediction of these models and conclude some valuable results which may help when we predict the realized Vol in our furture work
