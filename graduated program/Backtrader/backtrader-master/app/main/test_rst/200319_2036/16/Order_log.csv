@@ -1,0 +1,3 @@
+datetime,open,close,executedPrice,executedSize,Order_type,SL,TP,id,pos
+2019-05-24,1.11709,1.11969,1.11712,1,long,0.91709,1.7170899999999998,1,1
+2019-05-31,1.11391,1.1148799999999999,1.11388,-1,close long,0.0,0.0,0,0

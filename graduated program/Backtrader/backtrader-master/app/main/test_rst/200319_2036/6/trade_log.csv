@@ -1,0 +1,2 @@
+Open_time,Close_time,Order_type,executed_size,SL,TP,open_price,close_price,float_BP,duration,timereturn,Profit
+2020-02-19,2020-02-26,long,1,0.8822700000000001,1.68227,1.0823,1.08645,0.4149999999999876,7 days 00:00:00.000000000,0.003827094008344011,0.004149999999999876

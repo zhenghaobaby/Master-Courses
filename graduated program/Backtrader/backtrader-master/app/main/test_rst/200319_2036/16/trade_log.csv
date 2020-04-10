@@ -1,0 +1,2 @@
+Open_time,Close_time,Order_type,executed_size,SL,TP,open_price,close_price,float_BP,duration,timereturn,Profit
+2019-05-24,2019-05-31,long,1,0.91709,1.7170899999999998,1.11712,1.11388,-0.32399999999999096,7 days 00:00:00.000000000,-0.0029045291598367,-0.0032399999999999096

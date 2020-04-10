@@ -1,0 +1,18 @@
+2 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D no trades
+3 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D no trades
+1 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D succeed cost 1.94679594039917
+
+4 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D succeed cost 1.8500573635101318
+5 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D succeed cost 1.8510539531707764
+8 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D no trades
+7 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D succeed cost 1.6625559329986572
+9 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D no trades
+11 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D no trades
+10 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D succeed cost 1.1638848781585693
+12 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D succeed cost 1.1539149284362793
+15 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D no trades
+17 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D no trades
+13 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D succeed cost 1.3872907161712646
+14 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D succeed cost 1.353381633758545
+16 <class 'backtrader_customize.Strategy.Hammer.Hammer'> 2019-01-01 to 2020-03-13 freq:1D succeed cost 1.335430383682251
+Baacktest finished, total cost :10.298391580581665

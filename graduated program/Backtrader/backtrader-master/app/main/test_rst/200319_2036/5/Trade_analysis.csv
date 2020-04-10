@@ -1,0 +1,2 @@
+id,avg_duration,profit_factor,max_win,max_loss,win_rate,avg_win,avg_loss,MMD,Final pnl,sharpe_ratio,total_trades,max_pos,min_pos,SL_ratio,TP_ratio
+5,10 days 00:00:00.000000000,inf,0.035660000000000025,0.002950000000000008,1.0,0.01723571428571437,,-0.017329999999999846,0.12065000000000037,1.839870681648569,7,3,0,0.0,0.0
